@@ -252,6 +252,8 @@ function get_image_usage($attachment_id) {
     $attachment_url = wp_get_attachment_url($attachment_id);
     $post_types = get_post_types(array('public' => true), 'names');
     $all_post_types = array_merge(array('post', 'page'), $post_types);
+    // jihuin
+
 
     // Query posts and pages
     $post_args = array(
