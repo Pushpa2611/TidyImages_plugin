@@ -1,0 +1,74 @@
+/* style.css */
+.image-tabs {
+    display: flex;
+}
+
+.tablink {
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#unused {
+    display: none;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-image {
+    margin: 10px;
+}
+
+.small-image {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+/* Style for active tab */
+.active {
+    background-color: #ccc;
+}
+
+
+.image-table {
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.full-width {
+    width: 100%;
+}
+
+.border-table {
+    border-collapse: collapse;
+}
+
+.border-table th,
+.border-table td {
+    border: 1px solid #c3c4c7;
+  box-shadow: 0 1px 1px rgba(0,0,0,.04); /* Change color and size as needed */
+    padding: 8px;
+    text-align: left;
+}
+
+.border-table th {
+    background-color: #f2f2f2; /* Change background color as needed */
+}
+.small-un-image {
+  width: 60px;
+  height: 60px;
+  vertical-align: top;
+}
+/* CSS for displaying image and name horizontally */
+.image-info {
+    display: flex;
+    align-items: center;
+}
+
+.image-name {
+    margin-left: 10px; /* Adjust as needed for spacing */
+}
